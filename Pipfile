@@ -1,0 +1,15 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+numpy = "*"
+rasa = "*"
+spacy = "*"
+ginza = {file = "https://github.com/megagonlabs/ginza/releases/download/latest/ginza-latest.tar.gz"}
+
+[requires]
+python_version = "3.7"
